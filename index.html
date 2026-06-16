@@ -84,12 +84,12 @@ body{font-family:'Open Sans',sans-serif;background:var(--bg);color:var(--text);o
 .section-title h2{font-family:'Playfair Display',serif;font-size:36px;color:var(--black);margin-bottom:12px;font-weight:700}
 .section-title h2 span{color:var(--gold-dark)}
 .section-title p{font-size:16px;color:var(--text-light);max-width:550px;margin:0 auto}
-.problems-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.problem-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:30px 24px;transition:all .3s}
+.problems-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.problem-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:22px 18px;transition:all .3s}
 .problem-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 12px 30px rgba(26,26,26,0.10)}
 .problem-card .icon{width:48px;height:48px;background:rgba(201,164,71,0.14);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:16px;color:var(--gold-dark)}
-.problem-card h3{font-size:18px;color:var(--black);margin-bottom:10px;font-weight:700}
-.problem-card p{font-size:14px;color:var(--text-light);line-height:1.7}
+.problem-card h3{font-size:16px;color:var(--black);margin-bottom:10px;font-weight:700;line-height:1.3}
+.problem-card p{font-size:13px;color:var(--text-light);line-height:1.65}
 
 /* NUMEROS */
 .numeros{padding:60px 0;background:var(--black);border:none}
@@ -181,7 +181,7 @@ footer{background:#0e0e0e;padding:40px 0 20px;border-top:3px solid var(--gold)}
 .hero-photo{flex:1 1 auto;max-width:480px;width:100%;align-self:center}
 .hero-photo img{max-height:none;max-width:100%}
 .badges-grid{grid-template-columns:repeat(2,1fr)}
-.problems-grid{grid-template-columns:1fr}
+.problems-grid{grid-template-columns:repeat(2,1fr)}
 .numeros-grid{grid-template-columns:repeat(2,1fr);gap:20px}
 .sobre .container{flex-direction:column;text-align:center}
 .depo-grid{grid-template-columns:1fr}
@@ -196,6 +196,7 @@ footer{background:#0e0e0e;padding:40px 0 20px;border-top:3px solid var(--gold)}
 .header-cta{display:none}
 .numeros-grid{grid-template-columns:1fr 1fr}
 .numero-item h3{font-size:36px}
+.problems-grid{grid-template-columns:1fr}
 .modal-content{padding:30px 24px 24px}
 .section-title h2,.cta-mid h2,.cta-final h2,.sobre-text h2{font-size:26px}
 }
@@ -229,7 +230,7 @@ WhatsApp
 <div class="hero-text">
 <span class="tag">Advocacia Trabalhista — 25 Anos</span>
 <h1>Seus <span>direitos trabalhistas</span> foram violados?</h1>
-<p>A Dra. Melissa Segati Viana defende trabalhadores de São Paulo há 25 anos. Acidente de trabalho, justa causa, vínculo empregatício, periculosidade, insalubridade e assédio. Fale agora e receba uma análise gratuita do seu caso.</p>
+<p>A Dra. Melissa Segati Viana defende trabalhadores de São Paulo e Grande São Paulo há 25 anos. Acidente de trabalho, rescisão indireta, vínculo, periculosidade, insalubridade, horas extras, domésticas, gestantes e assédio. Fale agora e receba uma análise gratuita do seu caso.</p>
 <button class="btn btn-wpp" onclick="openModal('hero')">
 <svg class="wpp-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 Fale no WhatsApp agora
@@ -257,7 +258,7 @@ Fale no WhatsApp agora
 </div>
 <div class="badge-item">
 <div class="badge-icon">&#128200;</div>
-<h4>+2.000 Casos</h4>
+<h4>+10.000 Casos</h4>
 <p>Clientes atendidos com excelência e resultado</p>
 </div>
 <div class="badge-item">
@@ -285,12 +286,17 @@ Fale no WhatsApp agora
 <div class="problems-grid">
 <div class="problem-card">
 <div class="icon">&#9888;</div>
-<h3>Justa Causa do Patrão</h3>
+<h3>Rescisão Indireta</h3>
+<p>O patrão cometeu falta grave (atraso de salário, assédio, desvio de função)? Você pode pedir a saída com todos os direitos como se fosse demitido sem justa causa.</p>
+</div>
+<div class="problem-card">
+<div class="icon">&#10060;</div>
+<h3>Reversão de Justa Causa</h3>
 <p>Foi demitido por justa causa injustamente? Podemos reverter a decisão e garantir suas verbas rescisórias completas.</p>
 </div>
 <div class="problem-card">
 <div class="icon">&#128196;</div>
-<h3>Trabalho Sem Carteira</h3>
+<h3>Trabalho Sem Carteira Assinada</h3>
 <p>Trabalha sem registro? Exija o reconhecimento do vínculo e todos os direitos como FGTS, férias e 13º salário.</p>
 </div>
 <div class="problem-card">
@@ -307,6 +313,21 @@ Fale no WhatsApp agora
 <div class="icon">&#129657;</div>
 <h3>Acidente de Trabalho</h3>
 <p>Sofreu acidente no trabalho ou doença ocupacional? Você tem direito a indenização, estabilidade e benefícios do INSS.</p>
+</div>
+<div class="problem-card">
+<div class="icon">&#9201;</div>
+<h3>Horas Extras</h3>
+<p>Trabalha além da jornada e não recebe? Acumula banco de horas que nunca usa? Cobramos as horas extras dos últimos 5 anos com adicional de 50%.</p>
+</div>
+<div class="problem-card">
+<div class="icon">&#128105;&#8205;&#127859;</div>
+<h3>Direitos da Gestante</h3>
+<p>Foi demitida grávida ou foi forçada a pedir demissão? A gestante tem estabilidade garantida e direito à reintegração ou indenização integral.</p>
+</div>
+<div class="problem-card">
+<div class="icon">&#127968;</div>
+<h3>Direitos da Trabalhadora Doméstica</h3>
+<p>Trabalha como diarista, mensalista ou cuidadora? Tem direito a FGTS, horas extras, descanso, férias e demais direitos da CLT doméstica.</p>
 </div>
 <div class="problem-card">
 <div class="icon">&#128556;</div>
@@ -328,7 +349,7 @@ Fale no WhatsApp agora
 <div class="container">
 <div class="numeros-grid">
 <div class="numero-item">
-<h3>+2.000</h3>
+<h3>+10.000</h3>
 <p>Clientes Atendidos</p>
 </div>
 <div class="numero-item">
@@ -373,7 +394,7 @@ Fale no WhatsApp agora
 <div class="sobre-photo"><img src="melissa-foto.jpg" alt="Dra. Melissa Segati Viana"></div>
 <div class="sobre-text">
 <h2>Sobre a <span>Dra. Melissa Segati Viana</span></h2>
-<p>Com mais de 25 anos dedicados exclusivamente ao Direito do Trabalho em São Paulo, a Dra. Melissa Segati Viana construiu uma carreira marcada pela defesa firme dos direitos do trabalhador.</p>
+<p>Com mais de 25 anos dedicados exclusivamente ao Direito do Trabalho em <strong>São Paulo e Grande São Paulo</strong>, a Dra. Melissa Segati Viana construiu uma carreira marcada pela defesa firme dos direitos do trabalhador, em todo o leque de atuação territorial da capital e região metropolitana.</p>
 <p>Sua missão é garantir que cada cliente tenha acesso a uma representação jurídica de excelência, com atendimento humanizado e foco total em resultados concretos.</p>
 <p>Atuação preparada em todas as esferas do Direito Trabalhista, da consultoria preventiva até a representação em instâncias superiores.</p>
 <div class="sobre-cta">
@@ -446,8 +467,8 @@ Fale no WhatsApp agora
 <p>Depende da complexidade do caso. Em média, de 6 meses a 2 anos. Muitos casos são resolvidos em audiência de conciliação.</p>
 </div>
 <div class="faq-item">
-<h4>Vocês atendem em toda São Paulo?</h4>
-<p>Sim. Atendimento presencial e também online para todo o estado de São Paulo.</p>
+<h4>Vocês atendem em toda São Paulo e Grande São Paulo?</h4>
+<p>Sim. Atendimento presencial e também online em toda a capital e Grande São Paulo, incluindo ABC, Guarulhos, Osasco, Mauá, Santo André e demais municípios da região metropolitana.</p>
 </div>
 </div>
 <div class="section-cta">
@@ -479,16 +500,20 @@ Fale no WhatsApp agora
 <div class="footer-grid">
 <div class="footer-col">
 <h4>Dra. Melissa Segati Viana</h4>
-<p>Advocacia especializada em Direito Trabalhista em São Paulo, com 25 anos de atuação na defesa dos direitos do trabalhador.</p>
+<p>Advocacia especializada em Direito Trabalhista em São Paulo e Grande São Paulo, com 25 anos de atuação na defesa dos direitos do trabalhador.</p>
 <p>OAB/SP</p>
 </div>
 <div class="footer-col">
 <h4>Áreas de Atuação</h4>
-<a>Justa Causa do Patrão</a>
-<a>Trabalho Sem Carteira</a>
+<a>Rescisão Indireta</a>
+<a>Reversão de Justa Causa</a>
+<a>Trabalho Sem Carteira Assinada</a>
 <a>Periculosidade</a>
 <a>Insalubridade</a>
 <a>Acidente de Trabalho</a>
+<a>Horas Extras</a>
+<a>Direitos da Gestante</a>
+<a>Direitos da Doméstica</a>
 <a>Assédio Moral ou Sexual</a>
 </div>
 </div>
@@ -530,7 +555,7 @@ Fale no WhatsApp agora
 // ============================================================
 const WHATSAPP_NUMBER = '5511947349150'; // Dra. Melissa
 const WPP_DEFAULT_MSG = 'Olá Dra. Melissa! Vim pelo site e gostaria de uma consulta trabalhista.';
-const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzJUU4Q4xABoz04xzIaqqoAdTp6Br5gNcuJlBCwmkwcvX7Xt6QC9V5U9BQMtLUjF-Qa7A/exec';
+const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzFGBha3Masg_mCJUswn8EtV4Nrh0w_wI3KqAIEbYO7CuHLkVt8kvcYfowsIJu37Ef1/exec';
 const CLIENTE_TAG = 'melissa-segati';
 
 // ============================================================
